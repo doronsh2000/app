@@ -44,6 +44,9 @@ aws_new_env=`curl http://169.254.169.254/latest/meta-data/identity-credentials/e
 instance_id=`curl http://169.254.169.254/latest/meta-data/instance-id`
 
 
+blabla
+blabla2
+
 echo $aws_new_env
 if [[ $aws_new_env == "596384114749" ]] ; then
    echo "true - new environment"
