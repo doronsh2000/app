@@ -2,7 +2,8 @@ if [ dev];
 	blabla
 	fi
 
-	if [qa]; then 
+	if [qat]; then 
 		bla bla
 	fi
+	
 
